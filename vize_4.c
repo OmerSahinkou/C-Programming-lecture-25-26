@@ -16,3 +16,6 @@ int main(){
     printf("%d\n", swap(num, 0, 0, 0, 1));
     return 0;
 }
+
+
+//vize 4. soru kod yazma
