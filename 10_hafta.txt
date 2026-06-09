@@ -1,0 +1,14 @@
+Bellek İşlemleri
+malloc bir miktar bellek ayırır ama içerisi dolu da olabilir boş da olabilir
+calloc da ise aynı şekilde bellek ayrılır malloc dan tek farkı içerisindeki tüm elemanlar boştur
+realloc bellekte ayırdığı yeri büyütür
+free en son kullanılır 
+
+int *p = malloc(n*sizeof(int)) olarak tanımlanır. malloc tanımlamasıdır.
+char *p = calloc(n,sizeof(int)) olarak tanımlanır. calloc tanımlamasıdır.
+p=realloc(n,p); olarak tanımlanır . n ve pe ters de olabilir ? hoca da bilmiyormuş  :d
+free(p) free tanımlanır p nin adres bloğunu işletim sistemine geri ver demektir.
+
+
+
+
